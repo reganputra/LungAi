@@ -1,0 +1,16 @@
+2025-09-20 10:20:35,758 - root - INFO - Model loaded successfully
+2025-09-20 10:20:35,760 - root - INFO - Starting Flask server...
+2025-09-20 10:20:35,789 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.117:5000
+2025-09-20 10:20:35,790 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-20 10:20:35,792 - werkzeug - INFO -  * Restarting with stat
+2025-09-20 10:20:41,679 - root - INFO - Model loaded successfully
+2025-09-20 10:20:41,681 - root - INFO - Starting Flask server...
+2025-09-20 10:20:41,689 - werkzeug - WARNING -  * Debugger is active!
+2025-09-20 10:20:41,697 - werkzeug - INFO -  * Debugger PIN: 129-861-003
+2025-09-20 10:20:59,557 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 10:20:59] "GET /model/info HTTP/1.1" 200 -
+2025-09-20 10:21:06,181 - root - INFO - Raw prediction: [[0.39944923]]
+2025-09-20 10:21:06,183 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 10:21:06] "POST /predict HTTP/1.1" 200 -
+2025-09-20 10:21:10,454 - werkzeug - INFO - 127.0.0.1 - - [20/Sep/2025 10:21:10] "GET / HTTP/1.1" 200 -
